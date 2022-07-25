@@ -5,13 +5,311 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
     <title>BuildX</title>
 </head>
 <body>
-    <h1>BuildX</h1>
+
+    <!-- ======= Top Bar ======= -->
+    <section id="topbar" class="d-flex align-items-center">
+        <div class="container d-flex justify-content-center justify-content-md-between">
+
+            <div class="questions d-none d-md-flex align-items-center">
+                <a href="#" class="questions">Have any Questions?</a>
+            </div>
+
+            <div class="contact-info d-flex align-items-center">
+                <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@mail.com">contact@mail.com</a></i>
+                <i class="bi bi-telephone d-flex align-items-center ms-4"><span>+080 0444 333 444</span></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo"><img src="assets/logo.png" alt="logo"></a>
+
+      <nav id="navbar" class="navbar">
+        <ul class="navigation" data-visible="false">
+          <li><a class="nav-link scrollto active" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#features">Features</a></li>
+          <li><a class="nav-link scrollto " href="#project">Project</a></li>
+          <li><a class="nav-link scrollto" href="#pages">Pages</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="nav-link scrollto" href="#search"><i class="bi bi-search fa-5x"></i></a></li>
+        </ul>
+      </nav><!-- .navbar -->
+    
+      <i class="bi bi-list mobile-nav-toggle" aria-controls="navigation" aria-expanded="false"></i>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-10">
+            <h2 class="hero-title">We do big things with big ideas</h2>
+            <p class="hero-text">Talk To Our Experts and Get Your Dream Home Done. If you dream of designing a new home that takes full advantage of the unique geography and view of land that you love.</p>
+            <button class="hero-btn">Explore Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="quote-section d-flex align-items-center">
+    <div class="container quote-container">
+        <p class="quote-text">Consulting And Estimate For Your Project, <span>Contact Us Today</span></p>
+        <button class="quote-btn">Get a Quote</button>
+    </div>
+  </section>
+
+
+  <!-- ======= Featured Section ======= -->
+
+  <section id="features" class="d-flex align-items-center">
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+            <img src="/assets/featured.png" alt="featured" class="featured-image" />
+        </div>
+        <div class="col-lg-6">
+            <div class="featured-content">
+              <div class="featured-body">
+                <div class="featured-body-image">
+                  <img src="/assets/builder.jpg" alt="builder" />
+                </div>
+                <div class="featured-body-text">
+                  <h3>General Builder</h3>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+              </div>
+              <div class="featured-body">
+                <div class="featured-body-image">
+                  <img src="/assets/house.jpg" alt="builder" />
+                </div>
+                <div class="featured-body-text">
+                  <h3>House Extensions</h3>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+              </div>
+              <div class="featured-body">
+                <div class="featured-body-image">
+                  <img src="/assets/refurbishment.jpg" alt="builder" />
+                </div>
+                <div class="featured-body-text">
+                  <h3>Refurbishment</h3>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Featured Works ======= -->
+
+  <section id="works">
+    <div class="container d-flex justify-content-center">
+      <div class="work-content">
+        <h2 class="work-title">Featured Work</h2>
+        <p class="work-subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+      </div>
+    </div>
+
+    <div class="container-fluid d-flex justify-content-center">
+      <div class="work-links">
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto" href="#all">All</a></li>
+            <li><a class="nav-link scrollto active" href="#building">Green Building</a></li>
+            <li><a class="nav-link scrollto " href="#healthcare">Healthcare</a></li>
+            <li><a class="nav-link scrollto" href="#design">Interior Design</a></li>
+            <li><a class="nav-link scrollto" href="#office">Office</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="work-images">
+      <div class="row image-row">
+        <div class="col-md-4 col-sm-12">
+          <div class="image-wrapper">
+            <img src="/assets/image-1.jpg" alt="work design" class="work-image"/>
+            <div class="image-cta">
+              <h3 class="image-title">Architecture and Design</h3>
+              <div class="image-btns">
+                <button class="add-btn"><i class="bi bi-plus"></i></button>
+                <button class="link-btn"><i class="bi bi-link-45deg"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="image-wrapper">
+            <img src="/assets/image-2.jpg" alt="work design" class="work-image"/>
+            <div class="image-cta">
+              <h3 class="image-title">Architecture and Design</h3>
+              <div class="image-btns">
+                <button class="add-btn"><i class="bi bi-plus"></i></button>
+                <button class="link-btn"><i class="bi bi-link-45deg"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="image-wrapper">
+            <img src="/assets/image-3.jpg" alt="work design" class="work-image"/>
+            <div class="image-cta">
+              <h3 class="image-title">Architecture and Design</h3>
+              <div class="image-btns">
+                <button class="add-btn"><i class="bi bi-plus"></i></button>
+                <button class="link-btn"><i class="bi bi-link-45deg"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="image-wrapper">
+            <img src="/assets/image-4.jpg" alt="work design" class="work-image"/>
+            <div class="image-cta">
+              <h3 class="image-title">Architecture and Design</h3>
+              <div class="image-btns">
+                <button class="add-btn"><i class="bi bi-plus"></i></button>
+                <button class="link-btn"><i class="bi bi-link-45deg"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="image-wrapper">
+            <img src="/assets/image-5.jpg" alt="work design" class="work-image"/>
+            <div class="image-cta">
+              <h3 class="image-title">Architecture and Design</h3>
+              <div class="image-btns">
+                <button class="add-btn"><i class="bi bi-plus"></i></button>
+                <button class="link-btn"><i class="bi bi-link-45deg"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="image-wrapper">
+            <img src="/assets/image-6.jpg" alt="work design" class="work-image"/>
+            <div class="image-cta">
+              <h3 class="image-title">Architecture and Design</h3>
+              <div class="image-btns">
+                <button class="add-btn"><i class="bi bi-plus"></i></button>
+                <button class="link-btn"><i class="bi bi-link-45deg"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ======= Emoplyees Details ======= -->
+
+  <section id="employees">
+    <div class="container">
+      <div class="employees-section">
+        <h2 class="employees-title">Employees Details</h2>
+      </div>
+
+      <div class="employees-table">
+        <table class="table table-bordered table-striped">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">Code</th>
+              <th scope="col">Name</th>
+              <th scope="col">Designation</th>
+              <th scope="col">Contact Details</th>
+              <th scope="col">Work Profile</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">26</th>
+              <td>Unish Kumar</td>
+              <td>Front End Developer</td>
+              <td>9099201233</td>
+              <td>Total Responsibility to handle Front end work</td>
+            </tr>
+            <tr>
+              <th scope="row">36</th>
+              <td>Harish Parmar</td>
+              <td>.Net Developer</td>
+              <td>9898512345</td>
+              <td>handle all .net development</td>
+            </tr>
+            <tr>
+              <th scope="row">78</th>
+              <td>Jigar Gor</td>
+              <td>Web & Graphic Design</td>
+              <td>9898512366</td>
+              <td>Create Website, Graphics etc.</td>
+            </tr>
+            <tr>
+              <th scope="row">28</th>
+              <td>Vikas Shah</td>
+              <td>.Net Developer</td>
+              <td>9898512345</td>
+              <td>handle all .net development</td>
+            </tr>
+            <tr>
+              <th scope="row">55</th>
+              <td>Charmi Shah</td>
+              <td>SEO Executive</td>
+              <td>9898512345</td>
+              <td>SEO Work</td>
+            </tr>
+            <tr>
+              <th scope="row">55</th>
+              <td>Peter Parker</td>
+              <td>SEO Executive</td>
+              <td>9898512345</td>
+              <td>SEO Work</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <p class="footer-cr">©DIGIWHIZ 2019</>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="footer-link scrollto" href="#home">Home</a></li>
+          <li><a class="footer-link scrollto" href="#about">About</a></li>
+          <li><a class="footer-link scrollto" href="#services">Services</a></li>
+          <li><a class="footer-link scrollto " href="#portfolio">Portfolio</a></li>
+          <li><a class="footer-link scrollto" href="#blog">Blog</a></li>
+          <li><a class="footer-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </footer>
+
+
+
+
 
 
 
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
